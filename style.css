@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.intro-banner{
+    width: 100%;
+    height: 45vmin;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background-image: url("media/BlenderLogo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    filter: drop-shadow(0px 5px 15px black);
+}
+.intro-banner span{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.411);
+    font-size: 4vmin;
+    word-wrap: break-word;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-banner span h2{
+    width: 50%;
+}
+.content-section{
+    width: 100%;
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 226, 215);
+}
+.content-section-description{
+    width: 50%;
+    height: 100%;
+    /* border: 5px solid rgb(37, 103, 179); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    font-size: 2.5vmin;
+    padding: 2%;
+    text-align: center;
+}
+.image-section{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    filter: drop-shadow(0px 5px 10px black);
+    background-image: url("media/blenderSculpting.png");
+
+}
+.image-section img{
+    width: 75%;
+    height: 50%;
+}
+.example-content-section{
+    width: 100%;
+    height: 180vmin;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 87, 25);
+}
+.example-content-section h2{
+    font-size: 7vmin;
+}
+.example-content-section h3{
+    font-size: 4vmin;
+}
+.example-section-description{
+    width: 100%;
+    height: 15%;
+    /* border: 5px solid rgb(37, 103, 179); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    font-size: 4vmin;
+    padding: 2%;
+    text-align: center;
+}
+.examples-content{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+.examples-content-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.examples-content-divider{
+    width: 55vmin;
+    height: 85vmin;
+    background-color: rgb(109, 160, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+    font-size: 2.5vmin;
+    font-weight: 500;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5vmin;
+}
+.examples-content-divider img{
+    width: 100%;
+    height: 35vmin;
+}
+.content-divider-image{
+    width: 95%;
+    font-size: 1.5vmin;
+    font-weight: 500;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-divider-image:nth-child(1) p {
+    font-size: 1.7vmin;
+}
+
+.video-demonstration{
+    width: 50%;
+    height: 45vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
